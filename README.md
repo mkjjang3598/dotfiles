@@ -9,7 +9,7 @@ Installation
 ### 👉 One-liner (if you trust me):
 
 ```bash
-curl -fsSL https://dotfiles.wook.kr/etc/install | bash
+curl -fsSL https://github.com/mkjjang3598/dotfiles/etc/install | bash
 ```
 
 <details><summary>
@@ -28,7 +28,7 @@ curl -fsSL https://dotfiles.wook.kr/etc/install | bash
 </summary><p>
 
 ```bash
-$ git clone --recursive https://github.com/wookayin/dotfiles.git ~/.dotfiles
+$ git clone --recursive https://github.com/mkjjang3598/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles && python install.py
 ```
 
