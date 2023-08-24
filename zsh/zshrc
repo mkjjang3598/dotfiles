@@ -143,6 +143,9 @@ function _antidote_compile_bundles() {
   printf "%s\n" $bundles | antidote bundle >! "$ANTIDOTE_BUNDLE"
 }
 
+# Minkwan modifications
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
+
 # If $ANTIDOTE_BUNDLE is empty (blank) file, refresh the static cache
 if [ ! -s "$ANTIDOTE_BUNDLE" ] || ! grep -q '[^[:space:]]' < "$ANTIDOTE_BUNDLE"; then
   _antidote_compile_bundles
