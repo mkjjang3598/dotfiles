@@ -246,6 +246,7 @@ if [ -f "$HOME/.zshrc.local" ]; then
 fi
 
 # Minkwan modifications
+alias python=python3
 export PYTHONBREAKPOINT="pdb.set_trace"
 
 # >>> conda initialize >>>
