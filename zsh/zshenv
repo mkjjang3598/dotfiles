@@ -139,6 +139,7 @@ function _try_conda_base() {
   fi
 }
 
+_try_conda_base "$HOME/anaconda3";
 _try_conda_base "$HOME/.miniforge3";
 _try_conda_base "$HOME/miniforge3";
 _try_conda_base "$HOME/.miniconda3";
