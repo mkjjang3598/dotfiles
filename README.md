@@ -13,13 +13,13 @@ curl -fsSL https://github.com/mkjjang3598/dotfiles/etc/install | bash
 ```
 
 <details><summary>
-💡 (Tip) You only need to remember <code>curl dotfiles.wook.kr</code> (Click to expand)
+💡 (Tip) You only need to remember <code>curl https://github.com/mkjjang3598/dotfiles</code> (Click to expand)
 </summary></p>
 
 * Every file is accessible through `dotfiles.wook.kr` (via `curl -L` or `wget`), e.g.,
-  * https://dotfiles.wook.kr/vimrc
-  * https://dotfiles.wook.kr/vimrc?raw=true
-  * https://dotfiles.wook.kr/bin/tb
+  * https://github.com/mkjjang3598/dotfiles/vimrc
+  * https://github.com/mkjjang3598/dotfiles/vimrc?raw=true
+  * https://github.com/mkjjang3598/dotfiles/bin/tb
 
 <p></details>
 
