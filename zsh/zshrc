@@ -144,6 +144,7 @@ function _antidote_compile_bundles() {
 }
 
 # Minkwan modifications
+# plugins=(zsh-autosuggestions)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
 
 # If $ANTIDOTE_BUNDLE is empty (blank) file, refresh the static cache
@@ -249,25 +250,9 @@ fi
 alias python=python3
 export PYTHONBREAKPOINT="pdb.set_trace"
 
-# # >>> conda initialize >>>
-# #!! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/home/minkwan/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/home/minkwan/anaconda3/etc/profile.d/conda.sh" ]; then
-#         . "/home/minkwan/anaconda3/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/home/minkwan/anaconda3/bin:$PATH"
-#     fi
-# fi
-# unset __conda_setup
-# # <<< conda initialize <<<
-
 export PATH=/usr/local/cuda-11.7/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 export PATH=/usr/local/bin:$PATH:$HOME/bin
-
 
 # For blender
 export PATH="/usr/local/blender-3.5.1-linux-x64:$PATH"
