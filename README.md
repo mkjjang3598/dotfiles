@@ -9,7 +9,7 @@ Installation
 ### 👉 One-liner (if you trust me):
 
 ```bash
-curl -fsSL https://github.com/mkjjang3598/dotfiles/etc/install | bash
+curl -fsSL https://github.com/mkjjang3598/dotfiles/blob/master/etc/install | bash
 ```
 
 <details><summary>
@@ -17,9 +17,9 @@ curl -fsSL https://github.com/mkjjang3598/dotfiles/etc/install | bash
 </summary></p>
 
 * Every file is accessible through `dotfiles.wook.kr` (via `curl -L` or `wget`), e.g.,
-  * https://github.com/mkjjang3598/dotfiles/vimrc
-  * https://github.com/mkjjang3598/dotfiles/vimrc?raw=true
-  * https://github.com/mkjjang3598/dotfiles/bin/tb
+  * https://github.com/mkjjang3598/dotfiles/blob/master/vimrc
+  * https://github.com/mkjjang3598/dotfiles/blob/master/vimrc?raw=true
+  * https://github.com/mkjjang3598/dotfiles/blob/master/bin/tb
 
 <p></details>
 
