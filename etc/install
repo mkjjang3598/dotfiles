@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Usage:
-# curl -fsSL https://dotfiles.wook.kr/etc/install | bash
+# curl -fsSL https://raw.githubusercontent.com/mkjjang3598/dotfiles/master/etc/install | bash
 
 cat <<EOF
-   @wookayin's              ███████╗██╗██╗     ███████╗███████╗
+   @minkwan's               ███████╗██╗██╗     ███████╗███████╗
    ██████╗  █████╗ ████████╗██╔════╝██║██║     ██╔════╝██╔════╝
    ██╔══██╗██╔══██╗╚══██╔══╝█████╗  ██║██║     █████╗  ███████╗
    ██║  ██║██║  ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║
