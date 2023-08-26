@@ -17,8 +17,8 @@ curl -fsSL https://github.com/mkjjang3598/dotfiles/blob/master/etc/install | bas
 </summary></p>
 
 * Every file is accessible through `dotfiles.wook.kr` (via `curl -L` or `wget`), e.g.,
-  * https://github.com/mkjjang3598/dotfiles/blob/master/vimrc
-  * https://github.com/mkjjang3598/dotfiles/blob/master/vimrc?raw=true
+  * https://github.com/mkjjang3598/dotfiles/blob/master/vim/vimrc
+  * https://github.com/mkjjang3598/dotfiles/blob/master/vim/vimrc?raw=true
   * https://github.com/mkjjang3598/dotfiles/blob/master/bin/tb
 
 <p></details>
