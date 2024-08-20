@@ -9,7 +9,7 @@
    ██████╔╝╚█████╔╝   ██║   ██║     ██║███████╗███████╗███████║
    ╚═════╝  ╚════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
 
-   https://github.com/mkjjang3598/
+   https://github.com/mkjjang3598/dotfiles
 '''
 print(__doc__)  # print logo.
 

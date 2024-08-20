@@ -9,17 +9,17 @@ Installation
 ### 👉 One-liner (if you trust me):
 
 ```bash
-curl -fsSL https://github.com/mkjjang3598/dotfiles/etc/install | bash
+curl -fsSL  curl -fsSL https://raw.githubusercontent.com/mkjjang3598/dotfiles/master/etc/install | bash
 ```
 
 <details><summary>
-💡 (Tip) You only need to remember <code>curl https://github.com/mkjjang3598/dotfiles</code> (Click to expand)
+💡 (Tip) You only need to remember <code>curl github.com/mkjjang3598/dotfiles </code> (Click to expand)
 </summary></p>
 
-* Every file is accessible through `dotfiles.wook.kr` (via `curl -L` or `wget`), e.g.,
-  * https://github.com/mkjjang3598/dotfiles/vimrc
-  * https://github.com/mkjjang3598/dotfiles/vimrc?raw=true
-  * https://github.com/mkjjang3598/dotfiles/bin/tb
+* Every file is accessible through `https://github.com/mkjjang3598/dotfiles` (via `curl -L` or `wget`), e.g.,
+  * https://github.com/mkjjang3598/dotfiles/blob/master/vim/vimrc
+  * https://raw.githubusercontent.com/mkjjang3598/dotfiles/master/vim/vimrc?raw=true
+  * https://github.com/mkjjang3598/dotfiles/blob/master/bin/tb
 <p></details>
 
 <details><summary>
@@ -114,9 +114,9 @@ $ dotfiles install ripgrep        # -> ~/.local/bin/rg
 
 
 [neovim]: https://github.com/neovim/neovim
-[dotfiles-update]: https://github.com/wookayin/dotfiles/blob/master/bin/dotfiles
-[linux-locals.sh]: https://github.com/wookayin/dotfiles/blob/master/etc/linux-locals.sh
-[install.py]: https://github.com/wookayin/dotfiles/blob/master/install.py
+[dotfiles-update]: https://github.com/mkjjang3598/dotfiles/blob/master/bin/dotfiles
+[linux-locals.sh]: https://github.com/mkjjang3598/dotfiles/blob/master/etc/linux-locals.sh
+[install.py]: https://github.com/mkjjang3598/dotfiles/blob/master/install.py
 
 
 License
