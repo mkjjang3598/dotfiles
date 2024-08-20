@@ -269,3 +269,11 @@ if [ -n "$ZSH_PROFILE_LOG" ]; then
 fi
 
 # vim: set ts=2 sts=2 sw=2:
+
+# For CUDA
+export PATH=/usr/local/cuda-11.7/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export PATH=/usr/local/bin:$PATH:$HOME/bin
+
+# For blender
+export PATH="/usr/local/blender-3.5.1-linux-x64:$PATH"
