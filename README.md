@@ -9,7 +9,7 @@ Installation
 ### 👉 One-liner (if you trust me):
 
 ```bash
-curl -fsSL  curl -fsSL https://raw.githubusercontent.com/mkjjang3598/dotfiles/master/etc/install | bash
+curl -fsSL https://raw.githubusercontent.com/mkjjang3598/dotfiles/master/etc/install | bash
 ```
 
 <details><summary>
