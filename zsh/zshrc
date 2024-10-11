@@ -250,9 +250,16 @@ fi
 alias python=python3
 export PYTHONBREAKPOINT="pdb.set_trace"
 
-export PATH=/usr/local/cuda-11.7/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export PATH=/usr/local/cuda-11.4/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-11.4/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 export PATH=/usr/local/bin:$PATH:$HOME/bin
 
 # For blender
 export PATH="/usr/local/blender-3.5.1-linux-x64:$PATH"
+
+# Source nerfstudio autocompletions.
+if ! command -v compdef &> /dev/null; then
+    autoload -Uz compinit
+    compinit
+fi
+source /media/data1/minkwankim/nelf-pro/scripts/completions/setup.zsh
